@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="startPageController">
+   <children>
+      <AnchorPane fx:id="drawingPane" layoutX="14.0" layoutY="14.0" onMouseClicked="#drawVertex" prefHeight="470.0" prefWidth="484.0">
+         <children>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#d7d7d7" height="471.0" stroke="BLACK" strokeType="INSIDE" width="484.0" />
+         </children>
+      </AnchorPane>
+      <Label fx:id="mouseCoordsLabel" layoutX="513.0" layoutY="14.0" prefHeight="25.0" prefWidth="160.0" />
+   </children>
+</AnchorPane>
